@@ -30,8 +30,11 @@ public class Program2 {
 		department = departmentDao.findById(3);
 		System.out.println(department);
 		
-		//System.out.println("===Test 3: department Update===");
-		//departmentDao.findById(2);
+		System.out.println("===Test 3: department Update===");
+		department = departmentDao.findById(4);
+		department.setName("Kitchen");
+		departmentDao.update(department);
+		System.out.println("Update completed!");
 
 	}
 
