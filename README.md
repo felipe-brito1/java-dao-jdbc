@@ -11,7 +11,6 @@ A aplicação realiza operações de **CRUD** em entidades de um banco de dados 
 * Java
 * JDBC
 * MySQL
-* SQL
 * Padrão DAO
 * Git / GitHub
 
